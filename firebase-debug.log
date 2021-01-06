@@ -1,0 +1,108 @@
+[debug] [2021-01-05T20:02:57.037Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:02:57.041Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sagarnath Vaidya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-01-05T20:02:57.042Z] CLI Version:   9.1.0
+[debug] [2021-01-05T20:02:57.043Z] Platform:      win32
+[debug] [2021-01-05T20:02:57.043Z] Node Version:  v14.15.0
+[debug] [2021-01-05T20:02:57.045Z] Time:          Wed Jan 06 2021 01:32:57 GMT+0530 (India Standard Time)
+[debug] [2021-01-05T20:02:57.046Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:02:57.046Z] 
+[debug] [2021-01-05T20:02:57.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-05T20:02:57.057Z] > authorizing via signed-in user
+[debug] [2021-01-05T20:02:57.057Z] [iam] checking project portfolio-dc9ce for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-05T20:02:57.060Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dc9ce:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-05T20:02:59.070Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:02:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1151","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-05T20:02:59.077Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dc9ce  
+ 
+[debug] [2021-01-05T20:03:00.081Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:02:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'portfolio-dc9ce'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-01-05T20:03:00.326Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-dc9ce/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-01-05T20:03:21.923Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2021-01-05T20:03:31.498Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:03:31.500Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sagarnath Vaidya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-01-05T20:03:31.500Z] CLI Version:   9.1.0
+[debug] [2021-01-05T20:03:31.500Z] Platform:      win32
+[debug] [2021-01-05T20:03:31.500Z] Node Version:  v14.15.0
+[debug] [2021-01-05T20:03:31.501Z] Time:          Wed Jan 06 2021 01:33:31 GMT+0530 (India Standard Time)
+[debug] [2021-01-05T20:03:31.501Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:03:31.501Z] 
+[debug] [2021-01-05T20:03:31.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-05T20:03:31.509Z] > authorizing via signed-in user
+[debug] [2021-01-05T20:03:31.509Z] [iam] checking project portfolio-dc9ce for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-05T20:03:31.512Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dc9ce:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-05T20:03:33.192Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:03:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1202","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-05T20:03:33.198Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dc9ce  
+ 
+[debug] [2021-01-05T20:03:33.743Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:03:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'portfolio-dc9ce'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-01-05T20:03:33.800Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-dc9ce/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-01-05T20:03:55.161Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2021-01-05T20:04:24.669Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:04:24.671Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sagarnath Vaidya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-01-05T20:04:24.671Z] CLI Version:   9.1.0
+[debug] [2021-01-05T20:04:24.671Z] Platform:      win32
+[debug] [2021-01-05T20:04:24.671Z] Node Version:  v14.15.0
+[debug] [2021-01-05T20:04:24.672Z] Time:          Wed Jan 06 2021 01:34:24 GMT+0530 (India Standard Time)
+[debug] [2021-01-05T20:04:24.673Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:04:24.673Z] 
+[debug] [2021-01-05T20:04:24.679Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-05T20:04:24.680Z] > authorizing via signed-in user
+[debug] [2021-01-05T20:04:24.680Z] [iam] checking project portfolio-dc9ce for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-05T20:04:24.683Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dc9ce:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-05T20:04:26.317Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:04:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1176","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-05T20:04:26.322Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dc9ce  
+ 
+[debug] [2021-01-05T20:04:26.958Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:04:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'portfolio-dc9ce'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-01-05T20:04:27.007Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-dc9ce/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-01-05T20:04:48.357Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2021-01-05T20:06:39.905Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:06:39.907Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sagarnath Vaidya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-01-05T20:06:39.907Z] CLI Version:   9.1.0
+[debug] [2021-01-05T20:06:39.907Z] Platform:      win32
+[debug] [2021-01-05T20:06:39.907Z] Node Version:  v14.15.0
+[debug] [2021-01-05T20:06:39.908Z] Time:          Wed Jan 06 2021 01:36:39 GMT+0530 (India Standard Time)
+[debug] [2021-01-05T20:06:39.909Z] ----------------------------------------------------------------------
+[debug] [2021-01-05T20:06:39.909Z] 
+[debug] [2021-01-05T20:06:39.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-05T20:06:39.916Z] > authorizing via signed-in user
+[debug] [2021-01-05T20:06:39.916Z] [iam] checking project portfolio-dc9ce for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-05T20:06:39.919Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dc9ce:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-05T20:06:41.904Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:06:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1148","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-05T20:06:41.910Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dc9ce  
+ 
+[debug] [2021-01-05T20:06:42.605Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 Jan 2021 20:06:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'portfolio-dc9ce'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-01-05T20:06:42.617Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-dc9ce/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-01-05T20:07:04.044Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443

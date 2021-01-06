@@ -1,0 +1,104 @@
+{
+  "main": {
+    "name": "Sagarnath Vaidya",
+    "occupation": "Software Engineer ",
+    "description": " ",
+    "image": "sagar-L.jpg",
+    "bio": "My name is Sagarnath Vaidya, During my tenure, I worked with the Global Brands as my Clients to help develop UI solutions in Ecommerce domain.",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "sagar.vaidya11@gmail.com",
+    "phone": "+91 7020756507",
+    "address": {
+      "street": "5a Cross, Vijay Nagar",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560070"
+    },
+    "website": " ",
+    "resumedownload": "https://drive.google.com/file/d/1hXWNzuCD0sTw2_JSITFXN7RSq6pGB2R0/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sagarnath.vaidya/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/sagarnath-vaidya-aa18a788",
+        "className": "fa fa-linkedin"
+      }
+      
+    ]
+  },
+  "resume": {
+    "skillmessage": "An experienced and enthusiastic Software professional focussed on front end web development specialising in E-commerce domain.",
+    "education": [
+      {
+        "school": "RV College of engineering",
+        "degree": "Information Science And Engineering",
+        "graduated": "May 2015",
+        "description": "Graduated with Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "Mcfadyen Digitals",
+        "title": "Software Engineer",
+        "years": "July 2015 - 2017",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "65%"
+      },
+      {
+        "name": "Jquery",
+        "level": "60%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "55%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack Tinder Clone",
+        "category": "Tinder Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tinder.png",
+        "url": "https://tinder-clone-a5f9a.web.app/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": " ",
+        "user": " "
+      },
+      {
+        "text": " ",
+        "user": " "
+      }
+    ]
+  }
+}
